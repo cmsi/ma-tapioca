@@ -1,3 +1,9 @@
+tapioca (1.7.3-1) UNRELEASED; urgency=low
+
+  * New upstream release 1.7.3
+
+ -- Synge Todo <wistaria@phys.s.u-tokyo.ac.jp>  Tue, 09 Aug 2016 10:36:39 +0000
+
 tapioca (1.6.11-1) wheezy; urgency=low
 
   * New upstream release
