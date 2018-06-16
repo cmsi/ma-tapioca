@@ -14,8 +14,8 @@
 +CC     =  g++
 +CFLAGS = -O3 -Wall
 +INCS   = -I/usr/include/qt4 -I/usr/X11R6/include
-+LIBS   = -lQtCore -lQtGui -lQtOpenGL -lQtXml -lGLU -llapack -lblas
-+ICON   = 
++LIBS   = -lQtCore -lQtGui -lQtOpenGL -lQtXml -lGLU -lGL -llapack -lblas
++ICON   =
  
  ### for Mac
  #QT4    =  /usr/local/Trolltech/Qt-4.8.4
@@ -34,7 +34,7 @@
 +#CFLAGS = -O3 -Wall -static
 +#INCS   = -I$(QT4)/include -I/usr/X11/include
 +#LIBS   = -F$(QT4)/lib -L$(QT4)/lib -lQtCore -lQtGui -lQtOpenGL -lQtXml -framework OpenGL -framework CoreFoundation -framework Foundation -framework CoreServices -framework Security -framework ApplicationServices -framework IOKit -framework Cocoa -framework Carbon -lz -llapack -lblas
-+#ICON   = 
++#ICON   =
  
  #########################################
  ### do not edit lines below
