@@ -1,3 +1,9 @@
+tapioca (1.7.3-3) unstable; urgency=low
+
+  * Fixed makefiles
+
+ -- Synge Todo <wistaria@phys.s.u-tokyo.ac.jp>  Tue, 19 Jun 2018 08:30:44 +0900
+
 tapioca (1.7.3-2) unstable; urgency=low
 
   * Support for Stretch

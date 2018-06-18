@@ -1,7 +1,9 @@
 --- /dev/null
 +++ b/Makefile
-@@ -0,0 +1,2 @@
-+All %:
+@@ -0,0 +1,4 @@
++All:
++	make All -C src
++%:
 +	make $@ -C src
 --- a/src/Makefile
 +++ b/src/Makefile
